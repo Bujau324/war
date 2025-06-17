@@ -1,0 +1,30 @@
+1. setup github
+    - create remote repository
+    - git init
+    - track local repository with remote repository
+    - remember to stage and commit changes with git and push to remote repository
+
+2. General idea of War the card game
+    - Goal: be first player to win all 52 cards
+    - The Deal:
+        - deck evenly divided
+            - both players recieve 26 cards, dealt one at a time face down. Anyone may 
+            deal first, each player places stack of cards face down in front of them.
+    - The Play:
+        - Each player turns up a card at the same time and the player with the higher card
+        takes both cards and puts them, face down, on the bottom of his/her stack.
+            - If the cards are the same rank, it is War. Each player turns up one card face
+            down and one card face up. The player with the higher cards takes both piles
+            (six cards). If the turned up cards are again the same rank, each player places another
+            card face down and turns another card face up. The player with the higher card takes
+            all ten cards and so on.
+
+    - How to keep score:
+        - The game ends when one player has won all the cards.
+
+3. Card ranking
+    - Joker, Ace, King, Queen, Jack, 10, 9, 8, 7, 6, 5, 4, 3, 2.
+    - Suits do not matter.
+
+4. 
+

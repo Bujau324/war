@@ -1,0 +1,38 @@
+1. Create deck of cards
+    - card obects
+        - Characteristics
+            - Suit, Rank, Red or black
+                - Suit: Diamond, Clubs, Hearts, Spades
+                - Rank: (greatest to least) Joker, Ace, King, Queen, Jack, 10, 9, 8, 7, 6, 5, 4, 3, 2
+                - Black cards include all Clubs and Spades
+                - Red cards include all Hearts and Diamonds
+    - loop to initialize 52 card objects
+        - simplest idea: 4 loops (1 loop per Suit)
+            - iterate 13 times for all 13 cards to be initialized in 
+            each Suit
+        
+2. Storing deck of cards
+    - One big array/list of size 52
+
+3. Actions to use on deck of cards
+    - draw(up/down)
+        - pull one card from deck and place it face up or down
+        based on given argument.
+            - Default place face down.
+    - face up()
+        - turn card face up
+    - face down()
+        -turn card face down
+    - shuffle()
+        - randomize the ordering of all 52 cards.
+    - take(deck to take from)
+        - take players cards and give to own deck.
+
+4. Creating players
+    - each player has a stack of 26 cards
+    - get deck()
+        - take 26 cards from deck and add to own deck
+            - delete each card from deck the card was taken from
+    - check deck()
+        - display all cards currently in own deck
+        - display count of all cards currently in own deck
